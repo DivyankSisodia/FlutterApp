@@ -3,6 +3,7 @@ import 'package:tuts/Widgets/Alertboxi.dart';
 import 'package:tuts/Widgets/AnimatedText.dart';
 import 'package:tuts/Widgets/Auth.dart';
 import 'package:tuts/Widgets/Buttons.dart';
+import 'package:tuts/Widgets/CRUD_OPERATIONS.dart';
 import 'package:tuts/Widgets/Dismissible.dart';
 import 'package:tuts/Widgets/Form.dart';
 import 'package:tuts/Widgets/Geolocation.dart';
@@ -40,7 +41,7 @@ class MyApp extends StatelessWidget {
         // primarySwatch: Colors.black,
         primaryColor: Colors.white,
       ),
-      home: Authentication(),
+      home: CrudOp(),
     );
   }
 }
